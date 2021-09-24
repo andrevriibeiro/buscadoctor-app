@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_coments1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_separate_forth"
+        android:layout_marginTop="@dimen/normal_margin">
+
+        <ImageView
+            android:id="@+id/image_paciente1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/normal_margin"
+            android:layout_marginRight="@dimen/normal_margin"
+            android:contentDescription="@string/image"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_profile" />
+
+        <TextView
+            android:id="@+id/txt_view_nome_paciente1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/image_paciente1"
+            android:text="André Vitor Faria Ribeiro"
+            android:textSize="@dimen/half_text_size" />
+
+        <RatingBar
+            android:id="@+id/rb_paciente1"
+            style="@style/CustomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_view_nome_paciente1"
+            android:layout_toRightOf="@+id/image_paciente1"
+            android:numStars="5" />
+
+        <TextView
+            android:id="@+id/txt_view_data_coments_paciente1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_view_nome_paciente1"
+            android:layout_alignStart="@+id/txt_view_nome_paciente1"
+            android:layout_below="@+id/txt_view_nome_paciente1"
+            android:textSize="@dimen/half_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_coments2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_separate_forth"
+        android:layout_marginTop="@dimen/normal_margin">
+
+        <ImageView
+            android:id="@+id/image_paciente2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/normal_margin"
+            android:layout_marginRight="@dimen/normal_margin"
+            android:contentDescription="@string/image"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_profile" />
+
+        <RatingBar
+            android:id="@+id/rb_paciente2"
+            style="@style/CustomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_view_nome_paciente2"
+            android:layout_toRightOf="@+id/image_paciente2"
+            android:numStars="5" />
+
+        <TextView
+            android:id="@+id/txt_view_nome_paciente2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_paciente2"
+            android:layout_toEndOf="@+id/image_paciente2"
+            android:layout_toRightOf="@+id/image_paciente2"
+            android:text="Guilherme Mendes"
+            android:textSize="@dimen/half_text_size" />
+
+        <TextView
+            android:id="@+id/txt_view_data_coments_paciente2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_view_nome_paciente2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/txt_view_nome_paciente2"
+            android:layout_below="@+id/txt_view_nome_paciente2"
+            android:textSize="@dimen/half_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_coments3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_separate_forth"
+        android:layout_marginTop="@dimen/normal_margin">
+
+        <ImageView
+            android:id="@+id/image_paciente3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/normal_margin"
+            android:layout_marginRight="@dimen/normal_margin"
+            android:contentDescription="@string/image"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_profile" />
+
+        <RatingBar
+            android:id="@+id/rb_paciente3"
+            style="@style/CustomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_view_data_coments_paciente3"
+            android:layout_alignStart="@+id/txt_view_data_coments_paciente3"
+            android:layout_below="@+id/txt_view_nome_paciente3"
+            android:numStars="5" />
+
+        <TextView
+            android:id="@+id/txt_view_nome_paciente3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_paciente3"
+            android:layout_toEndOf="@+id/image_paciente3"
+            android:layout_toRightOf="@+id/image_paciente3"
+            android:text="Klaus Seidel"
+            android:textSize="@dimen/half_text_size" />
+
+        <TextView
+            android:id="@+id/txt_view_data_coments_paciente3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_view_nome_paciente3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/txt_view_nome_paciente3"
+            android:layout_below="@+id/txt_view_nome_paciente3"
+            android:textSize="@dimen/half_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_coments4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_separate_forth"
+        android:layout_marginTop="@dimen/normal_margin">
+
+        <ImageView
+            android:id="@+id/image_paciente4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/normal_margin"
+            android:layout_marginRight="@dimen/normal_margin"
+            android:contentDescription="@string/image"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_profile" />
+
+        <RatingBar
+            android:id="@+id/rb_paciente4"
+            style="@style/CustomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_view_nome_paciente4"
+            android:layout_alignStart="@+id/txt_view_nome_paciente4"
+            android:layout_below="@+id/txt_view_nome_paciente4"
+            android:numStars="5" />
+
+        <TextView
+            android:id="@+id/txt_view_nome_paciente4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_paciente4"
+            android:layout_toEndOf="@+id/image_paciente4"
+            android:layout_toRightOf="@+id/image_paciente4"
+            android:text="Gabriela Pereira Nunes"
+            android:textSize="@dimen/half_text_size" />
+
+        <TextView
+            android:id="@+id/txt_view_data_coments_paciente4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txt_view_nome_paciente4"
+            android:layout_toRightOf="@+id/image_paciente4"
+            android:textSize="@dimen/half_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_space1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/cardView_coments_user"
+        android:layout_margin="1dp" />
+
+    <TextView
+        android:id="@+id/coments_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="allRating"
+        android:text="@string/todos_comentarios"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<resources>
+    <!-- app -->
+    <string name="app_name">BuscaDoctor</string>
+    <string name="image">image</string>
+    <string name="ok">OK</string>
+
+    <string name="title_home">Inicio</string>
+    <string name="title_my_consultas">Minhas Consultas</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_consultorio_medico">Clinica Médica</string>
+    <string name="title_consultorio_ondontologico">Clinica Odontológica</string>
+    <string name="title_profile_user">Perfil</string>
+    <string name="title_profile_convenio">Meus Convênios</string>
+    <string name="title_profile_favoritos">Meus Favoritos</string>
+    <string name="todos_comentarios">Veja todas as Avaliações</string>
+
+    <!-- buttons -->
+    <string name="salve_button">Salvar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+
+    <!-- activity -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">Cadastre-se</string>
+    <string name="title_activity_profile">Perfil do Usuário</string>
+    <string name="title_activity_especialista">Especialista</string>
+
+    <!-- login -->
+    <string name="user">Usuário</string>
+    <string name="password">Senha</string>
+    <string name="enter">Entrar</string>
+    <string name="register">Não tem uma conta? Cadastra-se</string>
+    <string name="login_google">Login com Google</string>
+    <string name="login_facebook">Login com Facebook</string>
+
+    <!-- register -->
+    <string name="full_name">Nome Completo</string>
+    <string name="male">Masculino</string>
+    <string name="female">Feminino</string>
+    <string name="email">Email</string>
+    <string name="cellphone">Celular</string>
+    <string name="birthday">Data de Nascimento</string>
+    <string name="create_account">Criar conta</string>
+    <string name="sexo">Sexo</string>
+    <string name="cpf_number">CPF</string>
+    <string name="home_phone">Telefone Residêncial</string>
+    <string name="change_password">Alterar senha de acesso</string>
+    <string name="convenio_name">Nome do Convênio </string>
+    <string name="convenio_number">Número do Convênio</string>
+    <string name="titular">Titular</string>
+    <string name="dependente">Dependente</string>
+
+    <!-- search -->
+    <string name="especialidade">Especialidade</string>
+    <string name="data">Data</string>
+    <string name="especialista">Especialista</string>
+    <string name="consultorio">Consultorio</string>
+    <string name="aplicar">Aplicar</string>
+    <string name="empty_especcialista">Ainda não temos especialistas com a especialidade selecionada</string>
+
+    <!-- message -->
+    <string name="message_alert">Atenção</string>
+    <string name="message_no_consultorios">Ainda não temos es tipo de consultorios, indique-nos ao seus conhecidos</string>
+    <string name="message_login">Realizando login</string>
+    <string name="update_profile">Atualizando dados…</string>
+    <string name="add_new_convenio">Adicionar novo Convênio</string>
+    <string name="update_convenio">Atualizar Convênio</string>
+    <string name="conection_problem">Verifique sua conexão com a Internet</string>
+    <string name="confirm_remove_convenio">Deseja Remover este convênio?</string>
+    <string name="confirm_action">Confirmar</string>
+    <string name="appointment_confirmation">Confirme sua Solicitação</string>
+    <string name="message_success">Sucesso</string>
+    <string name="add_fav">Adicionado aos Favoritos</string>
+    <string name="remove_fav">Removido dos Favoritos</string>
+    <string name="without_users_rating">Não há avaliações disponivéis</string>
+
+
+    <!-- successfully message -->
+    <string name="update_successfully">Dados atualizados com sucesso!</string>
+    <string name="convenio_registred_successfully">Convênio cadastrado com sucesso!</string>
+    <string name="convenio_changed_successfully">Convênio atualizado com sucesso!</string>
+    <string name="convenio_removed_successfully">Convênio removido com sucesso!</string>
+
+    <!-- error -->
+    <string name="error_consultorio_load">Não foi possível carregar a lista de consultórios</string>
+    <string name="error_usuario_load">Não foi possível carregar os dados do usuário logado</string>
+    <string name="error_usuario_convenio_load">Não foi possivel carregar a lista dos convenios do usuário</string>
+    <string name="error_connection">Não foi possivel conectar-se com a internet</string>
+    <string name="error_field">Campo Obrigatorio!</string>
+    <string name="error_usuario_create">Não foi possível criar o usuário</string>
+    <string name="error_usuario_convenio_create">Não foi possivel criar um convenio para o usuário</string>
+    <string name="error_usuario_convenio_delete">Não foi possivel deletar o convênio</string>
+    <string name="error_username_password">Usuario ou Senha Invalido!</string>
+    <string name="error_especialidade_load">Não foi possível carregar a lista de especialidades</string>
+    <string name="error_usuario_update">Não foi possivel atualizar os dados!</string>
+    <string name="error_convenios_load">Não foi possivel carregar a lista de convenios</string>
+    <string name="error_consulta">Não foi possivel agendar a consulta para o horario selecionado!</string>
+    <string name="error_especialidade_select">Selecione uma especialidade</string>
+
+    <!-- menu -->
+    <string name="action_search">Pesquisar</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <!-- required message -->
+    <string name="sexo_required">Atenção: O campo SEXO é obrigátorio!</string>
+    <string name="title_activity_agenda">AgendaActivity</string>
+
+    <!-- navitagion itens Perfil Especialista e Consultorio -->
+    <string name="title_share">Compartilhar</string>
+    <string name="title_agendar">Agendar</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_call">Ligar</string>
+
+    <!-- agendamento -->
+    <string name="spinner_prompt">Escolha o Convênio</string>
+    <string name="hour_message">Não existe agenda disponível neste dia</string>
+    <string name="consulta_success">Consulta Agendada com sucesso</string>
+    <string name="title_activity_consultorio">Consultório</string>
+
+</resources>
